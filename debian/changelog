@@ -1,0 +1,54 @@
+d2to1 (0.2.12-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * Fixed homepage (https)
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/watch: Use https protocol
+  * d/changelog: Remove trailing whitespaces
+  * d/control: Remove trailing whitespaces
+  * d/rules: Remove trailing whitespaces
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Piotr Ożarowski ]
+  * Add dh-python to Build-Depends
+
+  [ Andrey Rahmatullin ]
+  * Drop Python 2 support.
+
+ -- Andrey Rahmatullin <wrar@debian.org>  Sat, 10 Aug 2019 23:07:45 +0500
+
+d2to1 (0.2.12-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.6 (no changes).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sat, 08 Aug 2015 23:50:40 +0200
+
+d2to1 (0.2.11-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 11 Sep 2013 09:24:08 +0000
+
+d2to1 (0.2.10-1) unstable; urgency=low
+
+  [ Aurelien Jarno ]
+  * New upstream version.
+  * Bump Standards-Version to 3.9.4 (no changes).
+
+  [ Jakub Wilk ]
+  * Use canonical URIs for Vcs-* fields.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 09 May 2013 06:17:15 +0200
+
+d2to1 (0.2.7-1) unstable; urgency=low
+
+  * Initial release of d2to1, needed by newer versions of PyFITS.  Closes:
+    #675885.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 04 Jun 2012 00:30:54 +0200
